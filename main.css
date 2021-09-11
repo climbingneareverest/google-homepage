@@ -9,3 +9,37 @@ body {
     width: 100%;
 }
 
+#header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header-left {
+    float: left;
+}
+
+#header-right {
+    float: right;
+}
+
+#header-right img {
+    border-radius: 50%;
+}
+
+
+
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    font-size: 12px;
+}
+
+#footer-left {
+    float: left;
+}
+
+#footer-right {
+    float: right;
+}
