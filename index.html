@@ -1,94 +1,35 @@
-<!DOCTYPE html>
-<html itemscope="" itemtype="http://schema.org/WebPage" lang="en">
+!DOCTYPE html>
+<html>
     <head>
-        <link rel="stylesheet" href="reset.css"/>
         <title>Google Homepage</title>
-        <style>
-           
-            #doc-parent {
-                height: 800px;
-                display: grid;
-                grid-template-columns: 1fr;
-                grid-template-rows: auto 1fr auto;
-                grid-template-areas:
-                    'header'
-                    'main'
-                    'footer';
-                background-color:hsl(159.8, 100%, 74.9%);
-            }
-
-            #header {
-                height: 5%;
-                width: 100%;
-            }
-
-            #main {
-                height: 90%;
-                width: 100%;
-            }
-
-            #footer {
-                height: 5%;
-                width: 100%;
-            }
-
-            svg {
-                width: 24px;
-                height: 24px;
-            }
-
-            #header img {
-                border-radius: 50%;
-            }
-
-            #footer a img {
-                width: 15px;
-                height: 15px;
-            }
-
-
-
-        </style>
     </head>
-
     <body>
-        <div id="doc-parent">
-            <div id="header">
-                <a class="nav-items-head" href="">About</a>
-                <a class="nav-items-head" href="">Store</a>
-                <a class="nav-items-head" href="">Gmail</a>
-                <svg class="nav-items-head" focusable="false" viewBox="0 0 24 24">
-                    <path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z">
-                    </path>
-                </svg>
-                <img class="nav-items-head" src="img/profileIcon.png"/>
-            </div>
+        <div id="header">
+            <a href="#">About</a>
+            <a href="#">Store</a>
+            <a href="#">Gmail</a>
+            <a href="#">Images</a>
+            <a href="#"><img src="img/waffleIcon.png" alt=""></a>
+            <a href="#"><img src="img/profileIcon.png" alt=""></a>
 
-            <div id="main">
-                <div id="search-bar">
-                    <img src="img/googleLogo.png" alt="Google Logo"/>
-                    <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                        <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
-                        </path>
-                    </svg>
-                    <input maxlength="2048" name="search" type="text" title="Search"/>
-                </div>
-                <div id="seach-buttons">
-                    <button id="Google Search</a>
-                    <a href="">I'm Feeling Lucky</a>
-                </div>
-            </div>
-
-            <div id="footer">
-                <a class="nav-items-foot" href="">Advertising</a>
-                <a class="nav-items-foot" href="">Business</a>"
-                <a class="nav-items-foot" href="">How Search Workds</a>
-                <a class="nav-items-foot" href=""><img src="img/carbonIcon.png" alt=""/>Carbon Neutral since 2007</a>
-                <a class="nav-items-foot" href="">Privacy</a>
-                <a class="nav-items-foot" href="">Terms</a>
-                <a class="nav-items-foot" href="">Settings</a>
-            </div>
         </div>
-    </body>
+        <div id="main">
+            <img src="img/googleLogo.png" alt="Google Logo">
+            <input type="text">
+            <button>Google Search</button>
+            <button>I'm Feeling Lucky</button>
 
+        </div>
+        <div id="footer">
+            <a href="#">Advertising</a>
+            <a href="#">Business</a>
+            <a href="#">How Search Works</a>
+            <a href="#"><img src="img/carbonIcon.png"></a>
+            <a href="#">Carbon neutral since 2007</a>
+            <a href="#">Privay</a>
+            <a href="#">Terms</a>
+            <a href="#">Settings</a>
+        </div>
+
+    </body>
 </html>
